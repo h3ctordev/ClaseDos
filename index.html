@@ -13,9 +13,21 @@
     <div id="app" class="main">
       {{ message }}
 
-      <p class="name">Soy: {{ name }}</p>
+      <p class="name" v-text="`Soy: ${name}`"></p>
       <p class="years">tengo {{ howOld }} años</p>
       <p class="location">y vivo en {{ location }}</p>
+
+      <br />
+      <hr />
+      <br />
+
+      <h3>v-bind</h3>
+      <input type="text" :value="text1" @input="catchEvent" />
+      <p v-text="text1"></p>
+      <br />
+      <h3>v-model</h3>
+      <input type="text" v-model="text2" />
+      <p v-text="text2"></p>
     </div>
   </body>
 </html>
