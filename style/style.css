@@ -1,0 +1,19 @@
+.main {
+  background-color: #00000f;
+  color: bisque;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.name {
+  font-size: 14px;
+}
+.years {
+  font-size: 14px;
+}
+.location {
+  font-size: 14px;
+}
