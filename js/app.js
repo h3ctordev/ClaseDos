@@ -10,7 +10,6 @@ const app = new Vue({
     imprimirEnConsola() {
       console.log("Hola!");
     },
-    calculoMatematico() {},
   },
   computed: {},
 });
